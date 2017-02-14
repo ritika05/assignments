@@ -1,0 +1,6 @@
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\bin\Debug\MatrixRotation.exe.config
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\bin\Debug\MatrixRotation.exe
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\bin\Debug\MatrixRotation.pdb
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\obj\Debug\MatrixRotation.csprojResolveAssemblyReference.cache
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\obj\Debug\MatrixRotation.exe
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\MatrixRotation\obj\Debug\MatrixRotation.pdb

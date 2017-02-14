@@ -1,0 +1,9 @@
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\bin\Debug\InheritedFuntions.exe.config
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\bin\Debug\InheritedFuntions.exe
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\bin\Debug\InheritedFuntions.pdb
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\obj\Debug\InheritedFuntions.exe
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\obj\Debug\InheritedFuntions.pdb
+c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\InheritedFuntions\obj\Debug\InheritedFuntions.csprojResolveAssemblyReference.cache
+C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.exe.config
+C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.exe
+C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.pdb
