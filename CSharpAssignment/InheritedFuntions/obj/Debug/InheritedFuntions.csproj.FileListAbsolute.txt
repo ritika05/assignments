@@ -7,3 +7,6 @@ c:\users\ritika\documents\visual studio 2015\Projects\InheritedFuntions\Inherite
 C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.exe.config
 C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.exe
 C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.pdb
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.exe.config
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.exe
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.pdb
