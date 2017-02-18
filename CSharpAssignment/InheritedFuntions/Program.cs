@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritedFunction
 {
-    class A
+    class MultiplicationOfTwo
     {
         public int Func(int a)
         {
@@ -14,7 +14,7 @@ namespace InheritedFunction
             return (a);
         }
     }
-    class B
+    class MultiplicationOfThree
     {
         public int Func(int a)
         {
@@ -22,7 +22,7 @@ namespace InheritedFunction
             return(a);
         }
     }
-    class C
+    class MultiplicationOfFive
     {
        public  int Func(int a)
         {
@@ -39,9 +39,9 @@ namespace InheritedFunction
             Console.WriteLine("Enter a value");
             int finalValue = int.Parse(Console.ReadLine());
             int initialValue = 1;
-            A obj = new A();
-            B obj1 = new B();
-            C obj2 = new C();
+            MultiplicationOfTwo obj = new MultiplicationOfTwo();
+            MultiplicationOfThree obj1 = new MultiplicationOfThree();
+            MultiplicationOfFive obj2 = new MultiplicationOfFive();
             while(initialValue!=finalValue)
             {
                 if (finalValue % 2 == 0)

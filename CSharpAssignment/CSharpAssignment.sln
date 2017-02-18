@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixRotation", "MatrixRot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangaloreBank", "BangaloreBank\BangaloreBank.csproj", "{D652E0B6-A5D5-4C9E-8431-E97FADE19385}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Pangrams\Pangrams.csproj", "{B28A610E-76C8-460D-8CE2-F142D8308291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D652E0B6-A5D5-4C9E-8431-E97FADE19385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D652E0B6-A5D5-4C9E-8431-E97FADE19385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D652E0B6-A5D5-4C9E-8431-E97FADE19385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28A610E-76C8-460D-8CE2-F142D8308291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28A610E-76C8-460D-8CE2-F142D8308291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28A610E-76C8-460D-8CE2-F142D8308291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28A610E-76C8-460D-8CE2-F142D8308291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
