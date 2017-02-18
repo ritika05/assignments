@@ -1,7 +1,11 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+
 
 struct Employee {
-	var employeeName  String
-	var name String {
+	var employeeName :String
+	var name : String {
 		get {
 			return employeeName
 		}
@@ -9,8 +13,8 @@ struct Employee {
 			employeeName = nameOfEmployee
 		}
 	}
-	var employeeId Int
-	var id Int {
+	var employeeId : Int
+	var id : Int {
 		get {
 			return employeeId
 		}
@@ -22,36 +26,29 @@ struct Employee {
 }
 struct EmployeeAdmin {
 	var employeeArray = [Employee]()
-	mutating func addEmployee(employee Employee) {
-		var eVerification  Bool =true
+	mutating func addEmployee(employee : Employee) {
+		var eVerification : Bool = true
 		for eId in employeeArray{
 			if eId.id == employee.id{
-				print(Employee Id already exists)
+				print("Employee Id already exists")
 				eVerification=false
 				break
 			}
 		}
 		if eVerification==true {
-			employeeArray.append(eee)
+			employeeArray.append(employee)
 		}
-		print(Employee Name )
-		employeeArray = [aaa,bbb,ccc,ddd]
-		print(empolyeeArray)
 	}
-	mutating func removeEmployee(employee Employee) {
-		var index Int =0
-		for eId in employeeArray{
-			if eId.id == employee.id{
-				employeeArray.remove(at index)
+	mutating func removeEmployee(eId : Int) {
+		var index : Int = 0
+		for employee in employeeArray{
+			if eId == employee.id{
+				employeeArray.remove(at : index)
 				break
 			}
-		index++
+		index += 1
 		}
 	}
 	
 }
-var eAdmin EmployeeAdmin
-var emp Employee
-emp.id= 1
-emp.name=fff
-eAdmin.addEmployee(emp)
+
