@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.promact.calculatorapp.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/TextInput"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/TextResult"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:columnCount="4"
+        android:rowCount="4"
+        android:orientation="horizontal" >
+
+
+        <Button android:text="7"
+            android:id="@+id/Seven"/>
+        <Button
+            android:text="8"
+            android:id="@+id/Eight" />
+        <Button
+            android:text="9"
+            android:id="@+id/Nine"/>
+        <Button
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:text="+"
+            android:id="@+id/Add"/>
+        <Button android:text="4"
+            android:id="@+id/Four"/>
+        <Button
+            android:text="5"
+            android:id="@+id/Five"/>
+        <Button android:text="6"
+            android:id="@+id/Six"/>
+        <Button android:text="1"
+            android:id="@+id/One"/>
+
+        <Button
+            android:text="2"
+            android:id="@+id/Two"/>
+        <Button
+            android:text="3"
+            android:id="@+id/Three"/>
+        <Button android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:text="-"
+            android:id="@+id/Sub"/>
+        <Button
+            android:text="C"
+            android:id="@+id/Clear"/>
+        <Button android:text="0"
+            android:id="@+id/Zero"/>
+        <Button
+            android:text="="
+            android:id="@+id/Equal"/>
+
+
+
+    </GridLayout>
+
+</LinearLayout>
