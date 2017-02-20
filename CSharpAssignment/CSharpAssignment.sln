@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritedFuntions", "Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Pangrams\Pangrams.csproj", "{B28A610E-76C8-460D-8CE2-F142D8308291}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangloreBank", "BangloreBank\BangloreBank.csproj", "{561E0902-6DF1-41A0-ABB1-AD21F715CBA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B28A610E-76C8-460D-8CE2-F142D8308291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28A610E-76C8-460D-8CE2-F142D8308291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28A610E-76C8-460D-8CE2-F142D8308291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561E0902-6DF1-41A0-ABB1-AD21F715CBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561E0902-6DF1-41A0-ABB1-AD21F715CBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561E0902-6DF1-41A0-ABB1-AD21F715CBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561E0902-6DF1-41A0-ABB1-AD21F715CBA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
