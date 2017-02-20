@@ -1,6 +1,0 @@
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\bin\Debug\BangaloreBank.exe.config
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\bin\Debug\BangaloreBank.exe
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\bin\Debug\BangaloreBank.pdb
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\obj\Debug\BangaloreBank.csprojResolveAssemblyReference.cache
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\obj\Debug\BangaloreBank.exe
-C:\Users\ritika\Documents\Visual Studio 2015\Projects\InheritedFuntions\BangaloreBank\obj\Debug\BangaloreBank.pdb
