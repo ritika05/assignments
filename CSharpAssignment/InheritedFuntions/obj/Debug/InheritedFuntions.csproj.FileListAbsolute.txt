@@ -10,3 +10,6 @@ C:\Users\ritika\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug
 C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.exe.config
 C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.exe
 C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.pdb
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.exe
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\bin\Debug\InheritedFuntions.pdb
+C:\Users\Ritika.PROMACT\Desktop\Assignments\CSharpAssignment\InheritedFuntions\obj\Debug\InheritedFuntions.csprojResolveAssemblyReference.cache

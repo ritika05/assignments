@@ -14,23 +14,23 @@ namespace InheritedFunction
             return (a);
         }
     }
-    class MultiplicationOfThree
+    class MultiplicationOfThree :MultiplicationOfTwo
     {
-        public int Func(int a)
+        public int Func1(int a)
         {
             a = a * 3;
             return(a);
         }
     }
-    class MultiplicationOfFive
+    class MultiplicationOfFive :MultiplicationOfThree
     {
-       public  int Func(int a)
+       public  int Func2(int a)
         {
             a = a * 5;
             return (a);
         }
     }
-    class Program
+    class Program :MultiplicationOfFive
     {
         
         static void Main(string[] args)
@@ -39,9 +39,7 @@ namespace InheritedFunction
             Console.WriteLine("Enter a value");
             int finalValue = int.Parse(Console.ReadLine());
             int initialValue = 1;
-            MultiplicationOfTwo obj = new MultiplicationOfTwo();
-            MultiplicationOfThree obj1 = new MultiplicationOfThree();
-            MultiplicationOfFive obj2 = new MultiplicationOfFive();
+            Program obj = new Program();
             while(initialValue!=finalValue)
             {
                 if (finalValue % 2 == 0)
@@ -54,14 +52,14 @@ namespace InheritedFunction
                 else if (finalValue % 3 == 0)
                 {
                     callB++;
-                    obj1.Func(initialValue);
+                    obj.Func1(initialValue);
                     finalValue = finalValue / 3;
 
                 }
                 else if (finalValue % 5 == 0)
                 {
                     callC++;
-                    obj2.Func(initialValue);
+                    obj.Func2(initialValue);
                     finalValue = finalValue / 5;
                 }
                 else
