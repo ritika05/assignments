@@ -131,7 +131,6 @@ namespace ORMAssignment
             }
 
                 Console.WriteLine();
-                Console.Read();
             }
         }
     }
