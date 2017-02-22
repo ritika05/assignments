@@ -12,8 +12,7 @@ namespace ORMAssignment
         public DbSet<ProductModel> product { get; set; }
         protected override  void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ORMDataBase");
-
+            optionBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ORM_DataBase");
         }
     }
 }

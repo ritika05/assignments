@@ -13,99 +13,126 @@ namespace ORMAssignment
             using (var db = new DataBaseConnection())
             {
                 db.Database.Migrate();
-                db.update.Add(new UpdateModel
-                {
-                    Name = "abc",
-                    UpdateDescription = "abc produdct updated",
-                    ProductId = 19
 
-                });
-
-                db.update.Add(new UpdateModel
-                {
-                    Name = "def",
-                    UpdateDescription = "def product updated",
-                    ProductId = 20
-                });
-
-                db.update.Add(new UpdateModel
-                {
-                    Name = "xyz",
-                    UpdateDescription = "xyz product updated",
-                    ProductId = 22
-                });
-
-                db.update.Add(new UpdateModel
-                {
-                    Name = "phones",
-                    UpdateDescription = "phones product updated",
-                    ProductId = 20
-                });
-
+                ////Adding Products in the Product Table
                 db.product.Add(new ProductModel
                 {
-                    ProductName = "phones",
-                    HomePageUrl = "http:\\phones.com",
+                    ProductName = "Samsung phones",
+                    HomePageUrl = "http:\\samsung.com",
                 });
-
+                var count = db.SaveChanges();
                 db.product.Add(new ProductModel
                 {
                     ProductName = "headphones",
                     HomePageUrl = "http:\\headphones.com",
 
                 });
+                count = db.SaveChanges();
                 db.product.Add(new ProductModel
                 {
                     ProductName = "back covers",
                     HomePageUrl = "http:\\covers.com",
                 });
+                count = db.SaveChanges();
                 db.product.Add(new ProductModel
                 {
-                    ProductName = "abc",
-                    HomePageUrl = "http:\\abc.com",
+                    ProductName = "nokia Phones",
+                    HomePageUrl = "http:\\Nokia.com",
                 });
-
+                count = db.SaveChanges();
                 db.product.Add(new ProductModel
                 {
-                    ProductName = "def",
-                    HomePageUrl = "http:\\def.com",
+                    ProductName = "Asus Phones",
+                    HomePageUrl = "http:\\asus.com",
                 });
-
+                count = db.SaveChanges();
                 db.product.Add(new ProductModel
                 {
-                    ProductName = "xyz",
-                    HomePageUrl = "http:\\xyz.com",
+                    ProductName = "Sony Phones",
+                    HomePageUrl = "http:\\sony.com",
                 });
+                count = db.SaveChanges();
 
-                db.update.Remove(new UpdateModel
+                ////Adding Products in the Update Table
+                db.update.Add(new UpdateModel
                 {
-                    Id = 24
-                });
+                    Name = "Nokia Phones",
+                    UpdateDescription = "Nokia  produdct updated",
+                    ProductId = 1
 
-                db.update.Update(new UpdateModel
+                });
+                count = db.SaveChanges();
+                db.update.Add(new UpdateModel
                 {
-                    Id = 17,
-                    ProductId = 20,
-                    Name = "covers",
-                    UpdateDescription = "def updated to covers",
+                    Name = "Asus Phones",
+                    UpdateDescription = "Asus product updated",
+                    ProductId = 5
                 });
+                count = db.SaveChanges();
+                db.update.Add(new UpdateModel
+                {
+                    Name = "Sony Phones",
+                    UpdateDescription = "Sony product updated",
+                    ProductId = 2
+                });
+                count = db.SaveChanges();
+                db.update.Add(new UpdateModel
+                {
+                    Name = "Samsung phones",
+                    UpdateDescription = "Samsung phones product updated",
+                    ProductId = 2
+                });
+                count = db.SaveChanges();
 
+            }
+            using (var db = new DataBaseConnection())
+            {
+                //Updating the Product Table when the ProductId is given
                 db.product.Update(new ProductModel
                 {
-                    ProductId = 20,
+                    ProductId = 2,
                     ProductName = "tempered glass",
                     HomePageUrl = "http:\\temperedglass.com",
+                    Description = "dewvf"
                 });
+                var count = db.SaveChanges();
 
+
+                //Updating the Update Table when Id and ProductId is given
+                db.update.Update(new UpdateModel
+                {
+                    Id = 2,
+                    Name = "covers",
+                    UpdateDescription = "Asus updated to covers",
+                    ProductId = 5,
+                });
+                count = db.SaveChanges();
+
+
+            }
+            //Removing data from the Product Table when ProductId is given
+            using (var db = new DataBaseConnection())
+            {
                 db.product.Remove(new ProductModel
                 {
-                    ProductId = 19
+                    ProductId = 5
                 });
 
+                //Removing Data from update Table when Id is given
+                db.update.Remove(new UpdateModel
+                {
+                    Id = 4
+                });
                 var count = db.SaveChanges();
-                Console.WriteLine("{0} changes saved", count);
+
+
+
+                count = db.SaveChanges();
+            }
+
                 Console.WriteLine();
+                Console.Read();
             }
         }
     }
-}
+
