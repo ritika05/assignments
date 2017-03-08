@@ -117,13 +117,13 @@ namespace ORMAssignment
                 {
                     ProductId = 5
                 });
-
+                var count = db.SaveChanges();
                 //Removing Data from update Table when Id is given
                 db.update.Remove(new UpdateModel
                 {
                     Id = 4
                 });
-                var count = db.SaveChanges();
+               
 
 
 

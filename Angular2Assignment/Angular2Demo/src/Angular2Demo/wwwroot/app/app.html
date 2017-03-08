@@ -1,0 +1,30 @@
+﻿<div>
+    Name:
+    <input type="text" name="address" value="name" [(ngModel)]="employee.Name"/>
+    Address:
+    <input  type="text" name="address" value="address" [(ngModel)]="employee.Address"/>
+    <button (click)="AddEmployee()">Add</button>
+</div>
+<div>
+    <table>
+        <tr>
+            <td>NAME</td>
+            <td>ADDRESS</td>
+        </tr>
+        <tr *ngFor= "let emp of employees">
+            <td>
+                <p *ngIf="!Update[employees.indexOf(emp)]" >{{emp.Name}}</p>
+                <input type="text"  *ngIf="Update[employees.indexOf(emp)]" [(ngModel)]="emp.Name"/>
+            </td>
+            <td>
+               <p *ngIf="!Update[employees.indexOf(emp)]" >{{emp.Address}}</p>
+                <input type="text"  *ngIf="Update[employees.indexOf(emp)]" [(ngModel)]="emp.Address"/>
+            </td>
+            <td><button *ngIf="Update[employees.indexOf(emp)]" (click)="UpdateEmployee()">Update</button>
+            </td>
+            <td ><button *ngIf="!Update[employees.indexOf(emp)]"(click)="EditEmployee(emp)">Edit</button></td>
+            <td><button (click)="DeleteEmployee(emp)">Delete</button></td>
+        </tr>
+
+    </table>
+</div>
